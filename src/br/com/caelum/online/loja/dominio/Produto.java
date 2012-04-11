@@ -1,22 +1,21 @@
 package br.com.caelum.online.loja.dominio;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Produto {
 
+	@Id 
+	@GeneratedValue 
 	private Long id;
 	private String nome;
 	private String cor;
 	private String descricao;
 	private double preco;
 
-	public Produto() {}
 	
-	public Produto(Long id, String nome, String descricao, double preco, String cor) {
-		this.id = id;
-		this.nome = nome;
-		this.descricao = descricao;
-		this.preco = preco;
-		this.cor = cor;
-	}
 	public Long getId() {
 		return id;
 	}

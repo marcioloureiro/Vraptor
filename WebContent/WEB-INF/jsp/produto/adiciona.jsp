@@ -7,6 +7,6 @@
 <title>Sucesso</title>
 </head>
 <body>
-Produto Adcionado com sucesso!
+Produto Adicionado com sucesso!
 </body>
 </html>

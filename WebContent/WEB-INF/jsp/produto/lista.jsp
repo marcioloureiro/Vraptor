@@ -15,6 +15,8 @@
 					<td>${produto.descricao}</td>
 					<td>${produto.preco}</td>
 					<td>${produto.cor}</td>
+					<td><a href="edita?id=${produto.id }">Editar</a></td>
+					<td><a href="remove?id=${produto.id}">Remover</a></td>
 				</tr>
 			</c:forEach>
 		</table>
