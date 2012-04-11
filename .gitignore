@@ -1,2 +1,3 @@
 WebContent/WEB-INF/lib/
 WebContent/WEB-INF/classes/
+src/hibernate.cfg.xml
